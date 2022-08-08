@@ -1,0 +1,46 @@
+.cartManage_context{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartManage_container{
+    padding: 1.8rem;
+    background-color: #f2fc9f;
+    height: 100%;
+}
+
+.cartManage_container .heading_container{
+    display: flex;
+    justify-content: left;
+}
+
+.cartManage_container .heading_container h3{
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: #b05977;
+    margin-top: 0;
+}
+
+.cartManage_input_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartManage_input_container-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 0.5rem;
+}
+
+.cartManage_input_container-right .cartManage_textFields{
+    width: 100%;
+    margin-bottom: 1.6rem;
+}
+
+.cartManage_clearbtnContainer{
+    margin-right: 1.4rem;
+}
+

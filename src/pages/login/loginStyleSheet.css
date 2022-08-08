@@ -1,0 +1,67 @@
+.login_context {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form_container {
+    height: 33rem;
+    width: 56rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2fc9f;
+    padding: 0.8rem;
+}
+
+.login_form_container .headingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form_container h3{
+    font-size: 2.4rem;
+    color: #b05977;
+    padding: 0;
+    font-weight: 900;
+}
+.login_form_container .login_content_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login_form_container .login_content_container .img_container{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+
+.login_form_container .login_content_container .details_container{
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.login_form_container .login_content_container .details_container .user_inputs{
+    width: 80%;
+    margin-bottom: 1.8rem;
+}
+
+.login_form_container .login_content_container .details_container .login_button{
+    width: 80%;
+    margin-bottom: 1.8rem;
+    background-color: #b05977;
+}
+
+.loginText{
+    color: #b05977;
+}
+
+
